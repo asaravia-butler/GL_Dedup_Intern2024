@@ -1,0 +1,8 @@
+name: picard_v3.1.1
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - picard==3.1.1

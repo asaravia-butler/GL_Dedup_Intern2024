@@ -1,0 +1,17 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: |
+
+      # Update conda and initialize
+      conda update -n base -c defaults conda -y
+      conda init bash
+
+      # Create conda environments
+      conda env create -f umi_tools_v1.1.5.yml
+      conda env create -f picard_v3.1.1.yml
+
+  - command: |
+      # Activate the desired environment
+      source /home/gitpod/.bashrc

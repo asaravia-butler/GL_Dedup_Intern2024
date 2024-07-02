@@ -1,2 +1,0 @@
-### Files used for testing deduplication tools
-These test files were created by first truncating the RNAseq raw fastq files from sample RRRM1_MG_VIV_LAR_OLD_VL19 in [OSD-511/GLDS-511](https://osdr.nasa.gov/bio/repo/data/studies/OSD-511/4) down to 1M reads. The truncated raw fastq files were then processed through Step 4 of the [GeneLab standard RNAseq processing pipeline](https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md).

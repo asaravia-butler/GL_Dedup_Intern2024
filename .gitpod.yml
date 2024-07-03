@@ -11,6 +11,7 @@ tasks:
       # Create conda environments
       conda env create -f umi_tools_v1.1.5.yml
       conda env create -f picard_v3.1.1.yml
+      conda env create -f rsem_v1.3.1.yml
 
   - command: |
       # Activate the desired environment

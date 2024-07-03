@@ -1,6 +1,8 @@
 # GL_Dedup_Intern2024
 Setting up this repo to create a Gitpod environment for the 2024 GL interns to run UMI-tools, Picard, and RSEM.
 
+---
+
 ### Initiating the GitPod environment
 
 To start a gitpod with the [UMI-tools](https://umi-tools.readthedocs.io/en/latest/reference/dedup.html), [Picard tools](https://broadinstitute.github.io/picard/), and [RSEM](https://deweylab.github.io/RSEM/rsem-calculate-expression.html) installed, add `https://gitpod.io#` to the start of the web address for this repository:
@@ -22,6 +24,7 @@ RSEM:
 To deactivate:
 `conda deactivate`
 
+<br>
 
 ### Files used for testing deduplication tools
 
@@ -35,6 +38,7 @@ Both the genome- and transciptome-aligned bam files are in the `Dedup_Test_Files
 
 *Note: These test files were created by first truncating the RNAseq raw fastq files from sample RRRM1_MG_VIV_LAR_OLD_VL19 in [OSD-511/GLDS-511](https://osdr.nasa.gov/bio/repo/data/studies/OSD-511/4) down to 1M reads. The truncated raw fastq files were then processed through Step 4 of the [GeneLab standard RNAseq processing pipeline](https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md).*
 
+<br>
 
 ### Files used for quantification with RSEM
 
